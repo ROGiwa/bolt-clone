@@ -5,4 +5,9 @@ import svgr from 'vite-plugin-svgr'
 export default defineConfig({
   plugins: [react(), svgr()],
   base: "/bolt-clone",
+  build: {
+    outDir: 'dist'
+  }
 })
+
+
