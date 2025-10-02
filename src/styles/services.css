@@ -1,0 +1,199 @@
+.services-container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  color: #6c757d;
+  max-width: 980px;
+  margin: 0 auto;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 48px;
+  padding: 0 0 0 300px;
+}
+
+.cards-carousel {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(350px, 1fr));
+  gap: 24px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0 12px 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.cards-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.service-card {
+  position: relative;
+  height: 600px;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;    
+  left: 0;    
+  right: auto;
+  padding: 32px;
+  color: white;
+  z-index: 2;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.card-description {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  opacity: 0.95;
+}
+
+.card-button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1a1a1a;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.card-button:hover {
+  background: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.rides {
+  background-image:url('assets/rides-service.webp');
+}
+
+.delivery {
+  background-image: url('assets/delievery-services.webp');
+}
+
+.rides .card-button, .delivery .card-button{
+    color: white;
+    background-color: #2b865a;
+}
+
+.rides .card-description, .delivery .card-description {
+    color: #b9ced4;
+}
+
+.car-sharing {
+  background-image: url('assets/car-sharing-services.webp');
+}
+
+.groceries {
+  background-image: url('assets/groceries-services.webp');
+}
+
+.business {
+  background-image: url('assets/business-services.webp');
+}
+
+.micromobility {
+  background-image: url('assets/micromobility-services.webp');
+}
+
+.car-sharing .card-button, .groceries .card-button, .business .card-button, .micromobility .card-button {
+    background-color: #ddfee9;
+    color: black;
+}
+
+.car-sharing .card-description, .groceries .card-description, .business .card-description, .micromobility .card-description {
+    color:#def0fb
+}
+
+
+.carousel-navigation {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.nav-arrow-right, .nav-arrow-left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e9ecef;
+  background:rgb(243, 240, 240);
+  color: #6c757d;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: normal;
+}
+
+.nav-arrow-right:hover, .nav-arrow-left:hover {
+  background: #34d399;
+  color: white;
+  border-color: #34d399;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(52, 211, 153, 0.3);
+}
+
+.nav-arrow-right:active, .nav-arrow-left:active {
+  transform: scale(0.95);
+}
+
