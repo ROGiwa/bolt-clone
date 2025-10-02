@@ -6,9 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write  # Changed from 'read' to 'write'
 
 jobs:
   build-and-deploy:
@@ -29,8 +27,6 @@ jobs:
         
       - name: Build project
         run: npm run build
-        env:
-          NODE_ENV: production
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
