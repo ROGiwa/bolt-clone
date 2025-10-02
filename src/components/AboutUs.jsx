@@ -7,7 +7,7 @@ const AboutUs = () => {
       
       <div className="image-container image-top">
         <img 
-          src="/assets/collage.webp" 
+          src="./assets/collage.webp" 
           alt="collage-image" 
           className="top-section-image"
         />
@@ -30,7 +30,7 @@ const AboutUs = () => {
       
       <div className="image-container image-bottom">
         <img 
-          src="/assets/aboutusphone.webp" 
+          src="./assets/aboutusphone.webp" 
           alt="Bottom section image" 
           className="bottom-section-image"
         />

@@ -22,7 +22,7 @@ const LatestFeatures = () => {
       
       <div className="image-container">
         <img 
-          src="/assets/downloadapps.webp" 
+          src="./assets/downloadapps.webp" 
           alt="Bolt ride booking feature" 
           className="feature-image"
         />
@@ -39,7 +39,7 @@ const LatestFeatures = () => {
     <div className="download-body">
       <div className="image-placeholder">
         <img 
-          src="/assets/realphone.webp" 
+          src="./assets/realphone.webp" 
           alt="Bolt app showcase" 
           className="showcase-image"
         />

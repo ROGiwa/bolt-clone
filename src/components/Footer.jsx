@@ -163,7 +163,7 @@ const Footer = () => {
        
         <div className="footer-middle">
           <div className="language-section">
-            <img src="/assets/ngr.svg" alt="Nigerian flag" className="flag-icon" />
+            <img src="./assets/ngr.svg" alt="Nigerian flag" className="flag-icon" />
             <span className="language-text">EN</span>
           </div>
           <div className="app-buttons">
@@ -177,7 +177,7 @@ const Footer = () => {
           <div className="footer-brand-social">
               
                 <img 
-                  src="/assets/boltlogowhite.svg" 
+                  src="./assets/boltlogowhite.svg" 
                   alt="Bolt Logo" 
                   className="bolt-icon" 
                 />

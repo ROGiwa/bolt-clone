@@ -118,11 +118,11 @@
 
 
 .rides {
-  background-image:url('assets/rides-service.webp');
+  background-image:url('../public/assets/rides-service.webp');
 }
 
 .delivery {
-  background-image: url('assets/delievery-services.webp');
+  background-image: url('../public/assets/delievery-services.webp');
 }
 
 .rides .card-button, .delivery .card-button{
@@ -135,19 +135,19 @@
 }
 
 .car-sharing {
-  background-image: url('./assets/car-sharing-services.webp');
+  background-image: url('../public/assets/car-sharing-services.webp');
 }
 
 .groceries {
-  background-image: url('./assets/groceries-services.webp');
+  background-image: url('../public/assets/groceries-services.webp');
 }
 
 .business {
-  background-image: url('./assets/business-services.webp');
+  background-image: url('../public/assets/business-services.webp');
 }
 
 .micromobility {
-  background-image: url('./assets/micromobility-services.webp');
+  background-image: url('../public/assets/micromobility-services.webp');
 }
 
 .car-sharing .card-button, .groceries .card-button, .business .card-button, .micromobility .card-button {

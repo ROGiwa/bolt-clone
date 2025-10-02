@@ -10,7 +10,7 @@ import '../styles/earnSection.css';
       title: "Drive and earn money",
       description: "Our 200+ million riders will send you plenty of ride requests. When demand is high, you can earn even more.",
       buttonText: "Register to drive",
-      image: "/assets/grid1.webp",
+      image: "./assets/grid1.webp",
       alt: "Bolt driver in car with smartphone",
       imagePosition: "left"
     },
@@ -20,7 +20,7 @@ import '../styles/earnSection.css';
       title: "Earn with every delivery",
       description: "You decide when and how often you deliver — weekdays, evenings, weekends, or just the occasional hour — it's up to you.",
       buttonText: "Register as a courier",
-      image: "/assets/grid2.webp",
+      image: "./assets/grid2.webp",
       alt: "Bolt Food delivery courier with green bag",
       imagePosition: "right"
     },
@@ -30,7 +30,7 @@ import '../styles/earnSection.css';
       title: "Increase your sales and reach new customers",
       description: "Millions of our users are ordering food or goods from restaurants and stores just like yours.",
       buttonText: "Register with Bolt Food",
-      image: "/assets/grid3.webp",
+      image: "./assets/grid3.webp",
       alt: "Server with a phone",
       imagePosition: "left"
     },
@@ -40,7 +40,7 @@ import '../styles/earnSection.css';
       title: "Grow your transport business",
       description: "As a fleet owner and Bolt partner, you can manage your assets from one easy-to-use dashboard and grow your transport business.",
       buttonText: "Learn about fleet",
-      image: "/assets/grid4.webp",
+      image: "./assets/grid4.webp",
       alt: "Lady in a car driving",
       imagePosition: "right"
     }

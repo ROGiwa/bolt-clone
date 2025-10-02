@@ -15,7 +15,7 @@ function Hero() {
         <button className="earn-bolt">Earn with Bolt</button>
       </div>
       <div className= 'hero-image'>
-        <img src="/assets/boltpic1.webp" alt="Hero image"></img>
+        <img src="./assets/boltpic1.webp" alt="Hero image"></img>
       </div>
     </section>
   );

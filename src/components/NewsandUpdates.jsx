@@ -8,28 +8,28 @@ const NewsandUpdates = () => {
       date: '6/7/2025',
       title: 'Bolt and Driver Technologies Inc. introduce a convenient...',
       description: 'Bolt has teamed up with Driver Technologies to offer an affordable dash cam app that boosts safety and peace of mind — no hardware required.',
-      image: '/assets/newsandupdate1.png',
+      image: './assets/newsandupdate1.png',
       featured: true
     },
     {
       id: 2,
       date: '6/7/2025',
       title: 'Cover rides for your loved ones with Family Profiles',
-      image: '/assets/newsandupdate2.png',
+      image: './assets/newsandupdate2.png',
       featured: false
     },
     {
       id: 3,
       date: '18/5/2025',
       title: 'Bolt Ambassador Program Nigeria – Terms and...',
-      image: '/assets/newsandupdate3.png',
+      image: './assets/newsandupdate3.png',
       featured: false
     },
     {
       id: 4,
       date: '12/2/2025',
       title: 'Breaking stereotypes: Meet a resilient female driver...',
-      image: '/assets/newsandupdate4.jpeg',
+      image: './assets/newsandupdate4.jpeg',
       featured: false
     }
   ];

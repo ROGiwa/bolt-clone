@@ -79,14 +79,14 @@ const Navbar = () => {
         <div className="navbar-container">
             <div className="navbar-logo">
               <img 
-                src="/assets/boltlogo.svg" 
+                src="./assets/boltlogo.svg" 
                 alt="Bolt Logo" 
                 className="navbar-icon" 
               />
             </div>
           <div className="navbar-right">
             <div className="language-selector">
-              <img src="/assets/ngr.svg" alt="Nigerian flag" className="navbar-flag-icon" />
+              <img src="./assets/ngr.svg" alt="Nigerian flag" className="navbar-flag-icon" />
               <span className="lang-text">EN</span>
             </div>
             <a href="#" className="support-link">Support</a>

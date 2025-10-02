@@ -43,7 +43,7 @@ const LearnMore = () => {
  return (
     <section className="cities-section">
         <div className= 'learnmore-image'>
-         <img src="/assets/afterservices.webp" alt="learnmore image"></img>
+         <img src="./assets/afterservices.webp" alt="learnmore image"></img>
        </div>
        
       <div className="cities-container">
