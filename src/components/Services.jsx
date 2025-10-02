@@ -42,7 +42,7 @@ const Services = () => {
       title: 'Groceries',
       description: 'All the essentials whenever you need them.',
       buttonText: 'Go to Bolt Market',
-      backgroundImage: 'rides-bg',
+      backgroundImage: 'groceries-bg',
       overlayColor: 'rgba(0, 0, 0, 0.4)'
     },
     {
@@ -50,7 +50,7 @@ const Services = () => {
       title: 'Business',
       description: 'Manage business travel for your team and clients',
       buttonText: 'Go to Bolt Food',
-      backgroundImage: 'delivery-bg',
+      backgroundImage: 'business-bg',
       overlayColor: 'rgba(0, 0, 0, 0.4)'
     },
         {
@@ -58,7 +58,7 @@ const Services = () => {
       title: 'Micromobility',
       description: 'Manage business travel for your team and clients',
       buttonText: 'Go to Bolt Food',
-      backgroundImage: 'delivery-bg',
+      backgroundImage: 'micromobility-bg',
       overlayColor: 'rgba(0, 0, 0, 0.4)'
     }
   ];
