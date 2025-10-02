@@ -135,19 +135,19 @@
 }
 
 .car-sharing {
-  background-image: url('assets/car-sharing-services.webp');
+  background-image: url('./assets/car-sharing-services.webp');
 }
 
 .groceries {
-  background-image: url('assets/groceries-services.webp');
+  background-image: url('./assets/groceries-services.webp');
 }
 
 .business {
-  background-image: url('assets/business-services.webp');
+  background-image: url('./assets/business-services.webp');
 }
 
 .micromobility {
-  background-image: url('assets/micromobility-services.webp');
+  background-image: url('./assets/micromobility-services.webp');
 }
 
 .car-sharing .card-button, .groceries .card-button, .business .card-button, .micromobility .card-button {
