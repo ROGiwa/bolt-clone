@@ -19,47 +19,41 @@ const Services = () => {
       title: 'Rides',
       description: 'Request in seconds, ride in minutes.',
       buttonText: 'Get Started',
-      backgroundImage: 'rides-bg',
+
     },
     {
       id: 'delivery',
       title: 'Delivery',
       description: 'Your favorite food, delivered fast.',
       buttonText: 'Go to Bolt Food',
-      backgroundImage: 'delivery-bg',
-      overlayColor: 'rgba(0, 0, 0, 0.5)'
+
     },
     {
       id: 'car-sharing',
       title: 'Car-sharing',
       description: 'High-quality car rental made easy.',
       buttonText: 'Go to Bolt Drive',
-      backgroundImage: 'car-sharing-bg',
-      overlayColor: 'rgba(0, 0, 0, 0.3)'
     },
     {
       id: 'groceries',
       title: 'Groceries',
       description: 'All the essentials whenever you need them.',
       buttonText: 'Go to Bolt Market',
-      backgroundImage: 'groceries-bg',
-      overlayColor: 'rgba(0, 0, 0, 0.4)'
+
     },
     {
       id: 'business',
       title: 'Business',
       description: 'Manage business travel for your team and clients',
       buttonText: 'Go to Bolt Food',
-      backgroundImage: 'business-bg',
-      overlayColor: 'rgba(0, 0, 0, 0.4)'
+
     },
         {
       id: 'micromobility',
       title: 'Micromobility',
       description: 'Manage business travel for your team and clients',
       buttonText: 'Go to Bolt Food',
-      backgroundImage: 'micromobility-bg',
-      overlayColor: 'rgba(0, 0, 0, 0.4)'
+
     }
   ];
 
