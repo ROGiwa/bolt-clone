@@ -1,9 +1,3 @@
-.learnmore-section {
-  width: 100vw; 
-  margin: 0;
-  padding-top: 80px;
-  overflow: hidden;
-}
 
 .learnmore-image {
   width: 100%;
@@ -23,7 +17,7 @@
   border-radius: 0;
 }
 
-.cities-section {
+.learnmore-section {
     background-color: #0b0c0e;
     color: white;
     position: relative;
